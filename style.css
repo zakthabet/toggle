@@ -1,0 +1,36 @@
+.toggle input{
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 0;
+}
+.toggle label{
+    display: inline-block;
+    position: relative;
+    width: 90px;
+    height: 44px;
+    background: #e8e8e8;
+    cursor: pointer;
+    border-radius: 22px;
+    transition: all 0.5s;
+}
+.toggle label::after{
+    content:'';
+    background: #fff;
+    box-shadow: 2px 0px 0px rgba(0, 0, 0, .1);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    right: 48px;
+    transition: all 0.5s;
+
+}
+.toggle input:checked+label{
+    background: #03d54f;
+}
+.toggle input:checked+label::after{
+    right: 2px;
+    box-shadow: -2px 0px 0px rgba(0, 0, 0, .1);
+}
