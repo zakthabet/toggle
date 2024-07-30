@@ -9,8 +9,8 @@ height: 100vh;
  display: flex;
  flex-direction: column;
 flex-wrap: wrap;
-align-content: flex-start;
-row-gap: 2em;
+align-content: space-around;
+row-gap: 5em;
 column-gap: 2em;
 
 }
