@@ -15,12 +15,9 @@ justify-content: center;
     padding: 25px;
     width: 50vw;
     height: 70vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-around;
-    row-gap: 5em;
-    column-gap: 2em;
+    display: grid;
+    grid-template-rows: 175px 175px ;
+    grid-template-columns: 1fr 1fr 1fr;
     
 }
 
