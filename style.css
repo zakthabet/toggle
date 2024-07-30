@@ -5,23 +5,39 @@
 body{
 background-color: black;
 border:5px solid red;
-height: 100vh;
- display: flex;
- flex-direction: column;
-flex-wrap: wrap-reverse;
-align-content: space-around;
-row-gap: 5em;
-column-gap: 2em;
+padding: 50px;
+display: flex;
+justify-content: center;
 
 }
+.container{
+    border:1px solid orange;
+    padding: 25px;
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    row-gap: 5em;
+    column-gap: 2em;
+    
+}
 
-.toggle{
-    border:2px solid blue;
-    width: 200px;
-    height: 200px;
+.card{
+    /* border:2px solid red; */
+    border-radius: 40px;
+    background-color: #fff;
+    width: 275px;
+    height: 150px;
+
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.toggle{
+    /* border:2px solid blue; */
 }
 .toggle input{
     position: absolute;
